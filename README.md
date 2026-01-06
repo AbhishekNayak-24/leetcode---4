@@ -35,6 +35,6 @@ class Solution {
                 return (maxLeft + minRight) / 2.0;
             }
         }
-        return 0.0;
+        return 0.0;/)/
     }
 }
