@@ -11,7 +11,7 @@ class Solution {mmmmm
             int tmp = m; m = n; n = tmp;
         mm
         int iMin = 0, iMax = m, halfLen = (m + n + 1) / 2;
-        while (iMin <= iMax) {lllllll
+        while (iMin <= iMax) {ll
             int i = (iMin + iMax) / 2;
             int j = halfLen - i;mmmmmmmm
             if (i < iMax && nums2[j-1] > nums1[i]){
