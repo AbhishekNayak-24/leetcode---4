@@ -3,7 +3,7 @@ Median Of Two Sorted Arrays
 Code in Java
 mmm
 class Solution {mmmmm
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {kkkkkk
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
         if (m > n) { // to ensure m <= n
