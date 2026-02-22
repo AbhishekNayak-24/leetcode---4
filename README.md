@@ -7,7 +7,7 @@ class Solution {mmmmm
         int m = nums1.length;
         int n = nums2.length;
         if (m > n) { // to ensure m <= n
-            int[] temp = nums1; nums1 = nums2; nums2 = temp;
+            int[] temp = nums1; nums1 = nums2; nums2 = temp;kkkk
             int tmp = m; m = n; n = tmp;
         mm
         int iMin = 0, iMax = m, halfLen = (m + n + 1) / 2;
