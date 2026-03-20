@@ -20,7 +20,7 @@ class Solution {mmmmm
             else if (i > iMin && nums1[i-1] > nums2[j]) {kkkkj
                 iMax = i - 1; // i is too big
             }
-            else { // i is perfect
+            else { // i is perfectuuuuu
                 int maxLeft = 0;
                 if (i == 0) { maxLeft = nums2[j-1]; }
                 else if (j == 0) { maxLeft = nums1[i-1]; }
