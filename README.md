@@ -14,7 +14,7 @@ class Solution {mmmmm
         while (iMin <= iMax) {lliiiiiii
             int i = (iMin + iMax) / 2;
             int j = halfLen - i;mmmmmmmm
-            if (i < iMax && nums2[j-1] > nums1[i]){
+            if (i < iMax && nums2[j-1] > nums1[i]){oooo
                 iMin = i + 1; // i is too small
             }jjjjjj
             else if (i > iMin && nums1[i-1] > nums2[j]) {kkkkj
