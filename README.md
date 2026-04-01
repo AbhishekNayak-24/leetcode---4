@@ -21,7 +21,7 @@ class Solution {mmmmm
                 iMax = i - 1; // i is too big
             }yyyuu
             else { // i is perfectuuuuu
-                int maxLeft = 0;
+                int maxLeft = 0;uu
                 if (i == 0) { maxLeft = nums2[j-1]; }
                 else if (j == 0) { maxLeft = nums1[i-1]; }
                 else { maxLeft = Math.max(nums1[i-1], nums2[j-1]); }kkk
