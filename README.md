@@ -17,7 +17,7 @@ class Solution {mmmmm
             if (i < iMax && nums2[j-1] > nums1[i]){oooo
                 iMin = i + 1; // i is too small
             }jjjjjj
-            else if (i > iMin && nums1[i-1] > nums2[j]) {kk
+            else if (i > iMin && nums1[i-1] > nums2[j]) {
                 iMax = i - 1; // i is too big
             }yyyuu
             else { // i is perfectuuuuu
