@@ -27,7 +27,7 @@ class Solution {mmmmm
                 else { maxLeft = Math.max(nums1[i-1], nums2[j-1]); }k
                 if ((m + n) % 2 == 1) { return maxLeft; 
                 int minRight = 0;nnnn
-                if (i == m) { minRight = nums2[j]; }
+                if (i == m) { minRight = nums2[j]; 
                 else if (j == n) { minRight = nums1[i]; }
                 else { minRight = Math.min(nums2[j], nums1[i]); }
 
