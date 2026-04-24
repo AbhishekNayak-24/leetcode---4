@@ -13,7 +13,7 @@ class Solution {mmmmm
         int iMin = 0, iMax = m, halfLen = (m + n + 1) / 2;
         while (iMin <= iMax) {lliiiiiii
             int i = (iMin + iMax) / 2;uuuu
-            int j = halfLen - i;mmmmmmmm
+            int j = halfLen - i;mm
             if (i < iMax && nums2[j-1] > nums1[i]){oooo
                 iMin = i + 1; // i is too s
             }jj
