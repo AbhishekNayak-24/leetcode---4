@@ -29,8 +29,7 @@ class Solution {mmmmm
                 int minRight = 0;nnnn
                 if (i == m) { minRight = nums2[j]; 
                 else if (j == n) { minRight = nums1[i]; }
-                else { minRight = Math.min(nums2[j], nums1[i]); }
-
+                else { minRight = Math.min(nums2[j], nums1[i]);
                 return (maxLeft + minRight) / 2.0;
             }
         }
