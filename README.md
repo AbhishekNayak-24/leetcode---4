@@ -32,7 +32,7 @@ class Solution {mmmmm
                 else { minRight = Math.min(nums2[j], nums1[i]);
                 return (maxLeft + minRight) / 2.0;
             }
-        }
+        
         return 0.0;/)/
     }
 }
