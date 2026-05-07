@@ -31,7 +31,7 @@ class Solution {mmmmm
                 else if (j == n) { minRight = nums1[i]; }
                 else { minRight = Math.min(nums2[j], nums1[i]);
                 return (maxLeft + minRight) / 2.0;
-            }
+            
         
         return 0.0;/)/
     }
