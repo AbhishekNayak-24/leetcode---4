@@ -9,7 +9,7 @@ class Solution {mmmmm
         if (m > n) { // to ensure m <= njjjj
             int[] temp = nums1; nums1 = nums2; nums2 = temp;k
             int tmp = m; m = n; n = tmp;oooo
-        mmhhhuuu
+        mmhhhuuujj
         int iMin = 0, iMax = m, halfLen = (m + n + 1) / 2;
         while (iMin <= iMax) {lliiiiiii
             int i = (iMin + iMax) / 2;uuuu
